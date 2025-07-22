@@ -38,4 +38,17 @@ h1 {
     color:blue;
 }
 
+@media (max-width: 768px){
+    .hero h1{font-size: 40px;} 
+}
+ 
+@media (max-width: 768px) { 
+    .hero h1 {font-size: 40px;}
+    body{background-color: rgb(107, 245, 199); }
+}
+
+.hero-text{ 
+    display: flex;
+    flex-direction: column;
+}
 
